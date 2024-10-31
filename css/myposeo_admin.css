@@ -1,0 +1,122 @@
+/*
+myposeo CSS Stylesheet for WordPress admin pages
+*/
+
+@CHARSET "UTF-8";
+
+.wrap h2 {
+	margin: 5px 0 0 0;
+	padding: 4px 0 0 48px;
+	background: url('https://www.myposeo.com/img/logo-wordpress.png') no-repeat;
+	line-height: 48px;
+}
+
+.postbox h3 {
+	background: #679EAD;
+	border: none;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 6px 4px 6px 4px;
+	line-height: 1.6;
+	text-shadow: none;
+	color: #fff;
+}
+
+.postbox {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#post-body-content th {
+	display: none;
+}
+
+#post-body-content input[type=text],
+#post-body-content input[type=password] {
+	width: 250px;
+}
+
+#post-body-content input.yd_reset {
+	display: none;
+}
+
+#post-body-content input.yd_submit.default {
+	display: none;
+}
+
+#post-body-content input.action {
+	margin-top: 0px;
+}
+
+
+#post-body-content td.settings,
+#post-body-content th.settings {
+	width: 115px;	
+}
+
+/*
+#post-body-content td.values,
+#post-body-content th.values {
+	width: 260px;	
+}
+*/
+
+.error {
+	background-color: #FFCFCF;
+	border: 1px solid #B50303;
+	color: #B50303;
+	font-weight: bold;
+	padding: 0.4em 0.6em;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.updated.myposeo_green {
+	background-color: #CCEEDD;
+	border: 1px solid #489A87;
+	color: #489A87;
+	font-weight: bold;
+	padding: 0.4em 0.6em;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+select.myposeo_drop {
+	margin: 10px 10px 10px 0;
+}
+
+.postbox {
+	margin-bottom: 5px;
+}
+
+ul.myposeolist {
+	list-style: none;
+    margin-left: 1em;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul.myposeolist li {
+	list-style-type:none;
+}
+
+ul.myposeolist li:before {
+    content: "-\0020";
+}
+
+li.toplevel_page_tl_myposeo-dashboard ul li a {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+li.toplevel_page_tl_myposeo-dashboard ul li a.wp-first-item {
+	white-space: normal;
+	overflow: visible;
+	text-overflow: clip;
+}
